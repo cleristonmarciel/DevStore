@@ -1,0 +1,129 @@
+/*lightbox*/ 
+
+.lightbox{
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+    background-color: #1b1a1a;
+    
+    z-index: 100;
+    margin-left: 15rem;
+    margin-top: 8rem;
+  }
+  
+  .lightbox-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .lightbox-image{
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .lightbox-image:hover {
+    border: solid 2px #967ecf;
+    opacity: 0.9;
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    padding: 0.1rem 0.3rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .lightbox-close:hover{
+    background-color: transparent;
+    color: #1d1d1d;
+    border:#967ecf solid 1px;
+  }
+  
+  .size-button {
+    position: absolute;
+    left: calc(100% - 450.4px);
+    bottom: calc(1%);
+    padding: 1.5rem;
+  }
+  
+  #titulo-size{
+    
+    font-size: 1.8rem;
+  }
+  
+  #subtitulo-size{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .size-price{
+   display: flex;
+   margin-top: 2rem;
+   
+  
+  }
+  
+  #price-destaque {
+    background-color: #8b5cf6;
+    border-radius: 25px;
+    border: #c2b9b9 solid 1px;
+    padding: 0.4rem;
+    font-weight: 400;
+    width: 70px;
+    font-size: 14px;
+    margin-right: 0.6rem;
+  }
+  
+  #juros{
+    margin-top: 7px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  
+  #titulo-tamanho{
+    margin-top: 1rem;
+  }
+  .tamanhos-PaG ul {
+    display: flex;
+    margin-top: 1rem;
+    list-style: none;
+   
+    
+  }
+  
+  .tamanhos-PaG li  {
+    width: 4rem;
+    background-color: #2f2f2f;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: 0.2px solid #5d5c5c;
+    padding-left: 1.5rem;
+    margin-right: 0.8rem;
+  }
+  
+  .tamanhos-PaG li:hover {
+    background-color:#8b5cf6;
+  }
+  
+  .add-carrinho{
+    margin-top: 2rem;
+    background-color: rgb(125, 210, 125);
+    border-radius: 25px;
+    width: 90%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .add-carrinho:hover{
+    background-color: rgb(15, 132, 15);
+  }

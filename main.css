@@ -1,0 +1,250 @@
+/* main*/
+
+.content {
+  position: relative;
+  max-width: 1440px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+/*first-image*/
+body {
+  background-color: black;
+  margin: 2rem;
+}
+.first-image {
+  max-width: 100%;
+  max-height: 700px;
+}
+
+.first-moletom {
+  height: 700px;
+}
+#moletom-1 {
+  width: 1000px;
+  height: 700px;
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-1:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+.price {
+  display: flex;
+  position: absolute;
+  bottom: 120px;
+  left: 440px;
+  z-index: 1;
+}
+#moletom-never {
+  background-color: black;
+  border-radius: 30px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.5rem;
+  font-weight: 300;
+  width: 215px;
+  font-size: 12px;
+}
+
+#moletom-never-valor {
+  background-color: #8b5cf6;
+  border-radius: 25px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.5rem;
+  font-weight: 400;
+  width: 58px;
+  top: 0px;
+  left: 157px;
+  position: absolute;
+  font-size: 12px;
+  
+}
+
+/* second image*/
+
+.second-image {
+  position: absolute;
+  width: 450px;
+  height: 700px;
+  top: 0;
+  right: 0;
+}
+
+.duplo-moletom {
+  margin-left: 2rem;
+  width: 450px;
+}
+#moletom-2 {
+  width: calc(831px / 2);
+  height: 332px;
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-2:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+
+#moletom-3 {
+  width: calc(831px / 2);
+  height: calc(714px / 2);
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-3:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+.price-2 {
+  display: flex;
+  position: absolute;
+  bottom: 440px;
+  left: 200px;
+  z-index: 1;
+}
+
+#moletom-never-2 {
+  background-color: #1d1d1d;
+  opacity: 0.9;
+  border-radius: 30px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.5rem;
+  font-weight: 300;
+  width: 154px;
+  font-size: 12px;
+}
+
+#moletom-never-valor-2 {
+  background-color: #8b5cf6;
+  border-radius: 25px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.4rem;
+  font-weight: 400;
+  width: 45px;
+  top: 1.7px;
+  left: 110px;
+  position: absolute;
+  font-size: 12px;
+}
+
+.price-3 {
+  display: flex;
+  position: absolute;
+  top: 390px;
+  right: 0px;
+  z-index: 1;
+}
+
+#moletom-never-3 {
+  background-color: #1d1d1d;
+  opacity: 0.9;
+  border-radius: 30px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.5rem;
+  font-weight: 300;
+  width: 150px;
+  font-size: 12px;
+}
+
+#moletom-never-valor-3 {
+  background-color: #8b5cf6;
+  border-radius: 25px;
+  border: #c2b9b9 solid 1px;
+  padding: 0.4rem;
+  font-weight: 400;
+  width: 45px;
+  top: 2px;
+  left: 115px;
+  position: absolute;
+  font-size: 12px;
+}
+
+/* Faça as seções de imagem se empilharem verticalmente em telas menores */
+@media screen and (max-width: 1050px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .second-image {
+    margin-top: 20px; /* Adicione espaço entre as seções empilhadas */
+  }
+}
+
+@media screen and (max-width: 1410px) {
+    .first-image{
+        width: 750px;
+    }
+
+    .duplo-moletom{
+        margin: 0;
+        height: 572px;
+    }
+    .second-image {
+        width: 400px;
+        height: 572px;
+    }
+    #second-moletom{
+        margin: 0;
+        height: 282px;
+    }
+    #moletom-1{
+        height: 580px;
+
+    }
+    #moletom-2{
+        width: 350px;
+        height: 270px;
+    }
+
+    #moletom-3{
+        width: 350px;
+        height: 270px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1151px){
+    .first-image{
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1051px) {
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .second-image {
+      margin-left: 2rem; /* Margem entre as imagens quando estão lado a lado */
+    }
+}
+
+@media screen and (max-width: 1050px) {
+  .content {
+    flex-direction: column; /* Empilha as imagens quando a largura da tela for menor ou igual a 1050px */
+  }
+
+  .second-image {
+    margin-top: 2rem; /* Adiciona margem superior para separar as imagens empilhadas */
+  }
+}
+

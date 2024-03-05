@@ -1,0 +1,137 @@
+.duplo-moletom-4 {
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+#moletom-never-5 {
+  width: calc(831px / 2);
+  height: calc(714px / 2);
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+#moletom-5:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+
+#moletom-3 {
+  width: calc(831px / 2);
+  height: calc(714px / 2);
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-3:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+
+#moletom-4 {
+  width: calc(831px / 2);
+  height: calc(714px / 2);
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-4:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+
+#moletom-5 {
+  width: calc(831px / 2);
+  height: calc(714px / 2);
+  background-color: #1d1d1d;
+  margin-left: 2rem;
+  position: relative;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#moletom-5:hover {
+  transform: scale(1.1);
+  border: 1px solid #967ecf;
+  z-index: 1;
+}
+
+.bnt-price-search-2,
+.bnt-price-search-3,
+.bnt-price-search-4,
+.bnt-price-search-5 {
+  background-color:  rgba(0, 0, 0, 0.8);
+  opacity: 0.9;
+  border-radius: 50px;
+  border: #c2b9b9 solid 1px;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  font-weight: 300;
+  width: 230px;
+  font-size: 14px;
+  height: 40px;
+}
+
+.value-search-2,
+.value-search-3,
+.value-search-4,
+.value-search-5 {
+  background-color: #8b5cf6;
+  border-radius: 25px;
+  border: #c2b9b9 solid 1px;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  font-weight: 400;
+  width: 80px;
+  height: 38px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ 
+
+}
+
+.bnt-price-search-2{
+  display: flex;
+  position: absolute;
+  top: 390px;
+  left: 190px;
+  z-index: 1;
+}
+.bnt-price-search-3{
+  display: flex;
+  position: absolute;
+  top: 780px;
+  left: 190px;
+  z-index: 1;
+}
+.bnt-price-search-4{
+  display: flex;
+  position: absolute;
+  top: 390px;
+  right: 200px;
+  z-index: 1;
+}
+.bnt-price-search-5{
+  display: flex;
+  position: absolute;
+  top: 390px;
+  right: 650px;
+  z-index: 1;
+}
+

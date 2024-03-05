@@ -1,0 +1,118 @@
+.content-3 {
+  height: 700px;
+  
+}
+
+  .lightbox-content-3{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .lightbox-image{
+    max-height: 400px;
+    object-fit: cover;
+    
+  }
+  
+  .lightbox-close-3 {
+    
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    padding: 0.1rem 0.3rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .lightbox-close-3:hover{
+    background-color: transparent;
+    color: #1d1d1d;
+    border:#967ecf solid 1px;
+  }
+  
+  .size-button-3 {
+    position: absolute;
+    left: calc(100% - 450.4px);
+    bottom: calc(1%);
+    padding: 1.5rem;
+    margin-bottom: 180px;
+  }
+  
+  #titulo-size-3{
+    
+    font-size: 1.8rem;
+  }
+  
+  #subtitulo-size-3{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .size-price-3{
+   display: flex;
+   margin-top: 2rem;
+   
+  
+  }
+  
+  #price-destaque-3 {
+    background-color: #8b5cf6;
+    border-radius: 25px;
+    border: #c2b9b9 solid 1px;
+    padding: 0.4rem;
+    font-weight: 400;
+    width: 70px;
+    font-size: 14px;
+    margin-right: 0.6rem;
+  }
+  
+  #juros-3{
+    margin-top: 7px;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  
+  #titulo-tamanho-3{
+    margin-top: 1rem;
+  }
+  .tamanhos-PaG-3 ul {
+    display: flex;
+    margin-top: 1rem;
+    list-style: none;
+   
+    
+  }
+  
+  .tamanhos-bnt  {
+    width: 4.5rem;
+    background-color: #2f2f2f;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: 0.2px solid #5d5c5c;
+    padding-left: .5rem;
+    margin-right: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .tamanhos-bnt:hover {
+    background-color:#8b5cf6;
+  }
+  
+  .add-carrinho-3{
+    margin-top: 2rem;
+    background-color: rgb(125, 210, 125);
+    border-radius: 25px;
+    width: 90%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .add-carrinho-3:hover{
+    background-color: rgb(15, 132, 15);
+  }
